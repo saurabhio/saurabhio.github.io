@@ -1,0 +1,80 @@
+body
+{
+    background-color: #ffffff;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 14px;
+    margin: 4em auto;
+    width: 900px;
+}
+
+#headerTop  
+{ 
+    height:20px;
+    padding:5px;
+    background-color:#c0fb70;
+    text-align:right;
+
+}
+
+#homeDiagram
+{
+    padding:10px;
+    height:450px;
+    color:#454545;
+    background-color:#efefef;
+    font-size:50px;
+    border-bottom:1px solid #cccccc;
+    
+}
+
+a.menu:link,a.menu:visited
+{
+	font-weight:none;
+	color:#FFFFFF;
+	background-color:#F6358A;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+}
+a.menu:hover,a.menu:active
+{
+	background-color:#810541;
+	font-size:100%;
+}
+
+
+#footer
+{  
+	float:center;
+    background-color:#005575;
+}
+
+#footerTop
+{
+	height:10px;
+	background-color:#3bb0d7;
+}
+
+#footerBottom
+{ 
+   height:50px;
+   padding-top:5px;
+   color:#ffffff; 
+   text-align:center;  
+   text-decoration:none; 
+   font-family:arial;
+}
+
+
+.rectBox1
+{    
+    padding :5px 10px 7px 10px;
+    color:#009400;   
+    text-decoration:none;
+}
+
+.rectBox1:hover
+{
+    color:#ffffff;
+    background-color:#6DCE00;
+}
