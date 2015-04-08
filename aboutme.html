@@ -6,15 +6,18 @@
 	<meta name="description" content="Saurabh&#39;s Web Page">
 	<meta name="keywords"    content="saurabh, saurabhio">
 
-	<title>Saurabh | About Me</title>
+	<title>Saurabh | Apps</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="./basic.css">
 
 	<!-- Script 
-	<script src="./jquery-2.1.1.js"></script> -->
+	<script src="./jquery-2.1.1.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
+	<script src="./apps.js"></script> 
 	
 </head>
+
 
 <body>		
 	<div id="Header">
@@ -25,17 +28,24 @@
 	
 	
 	<div id="Intro">	
-		<b>About Me</b>
+		<b>Apps</b>
 	</div>	
 	
 
-	<div id="MainContent">	
-		<h4>
-			Hi, I'm Saurabh.<br><br>
-			Computing, Information, Statistics & Modern Physics fascinate me.<br><br>
-			I believe simple things make much sense, so here, I'm trying to build small, simple and quality web apps.
-		</h4>
+	<div id="MainContent">		
 		
+		<div id="App1"><h3>Loan Calculator</h3></div>		
+		<div id="LoanCalc">
+			Loan amount                            : <input type="text" id="LoanAmount"         /><br>			
+			Loan period             (years)        : <input type="text" id="LoanPeriod"         /><br>
+			Annual interest rate    (percentage)   : <input type="text" id="AnnualInterestRate" /><br>
+			Period of each payment  (months)       : <input type="text" id="PeriodOnePayment"   /><br><br>
+			
+			<input type="button" onclick="sLoan()" value="Instalment"/> <b id="sval"></b>		
+		</div>		
+		
+		<br><br><h5>More Apps coming soon...</h5>
+
 	</div>
 
 	
