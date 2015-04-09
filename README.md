@@ -1,2 +1,2 @@
 # saurabhio.github.io
-Just making simple & quality web apps.
+Just trying to make simple & quality web apps.
