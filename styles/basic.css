@@ -237,6 +237,10 @@ dl,
     font-weight: bold;
 }
 
+.mydescp {
+    font-size: 1.2em;
+}    
+
 ul,
 ol,
 dl {
