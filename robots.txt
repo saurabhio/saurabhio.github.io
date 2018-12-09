@@ -1,0 +1,3 @@
+# Hi. Let's have a chat!
+User-agent: * 
+Disallow: 
