@@ -1,5 +1,0 @@
-# Okay! Email me here: saurabhio@outlook.com
-User-agent: * 
-Disallow: 
-
-Sitemap: http://saurabhio.com/sitemap.xml
